@@ -12,7 +12,6 @@ def process(path_file, instance):
         "qtd_linhas": len(resultTxtImporters),
         "linhas_do_arquivo": resultTxtImporters,
     }
-    
     instance.enqueue(resultFinished)
     print(resultFinished)
 
